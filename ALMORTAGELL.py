@@ -1,4 +1,4 @@
-from almortagel import ALMORTAGEL
+from almortagel import Almortagel
 import requests
 import telebot
 import time, base64, marshal, zlib, py_compile
