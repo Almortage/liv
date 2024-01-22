@@ -1,6 +1,6 @@
 import os
 
 
-class ALMORTAGEL(object):
+class Almortagel(object):
     ALMORTAGEL = os.environ.get("ALMORTAGEL", "")
 
