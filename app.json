@@ -9,7 +9,7 @@
 		"telethon"
 	],
     "env": {
-        "ALMORTAGEL": {
+        "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
             "value": ""            
 	   }
