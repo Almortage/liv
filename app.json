@@ -1,17 +1,18 @@
 {
-	"name": "ENCODE",
-	"description": "بوت تشفير الملفات",
-	"logo": "https://telegra.ph/file/bd0fde82d09f7681afc99.jpg",
+	"name": "telawat",
+	"description": "A TeleGramBot to send messages secretly!",
+	"logo": "https://telegra.ph/file/14c7948ad180050fe16e4.jpg",
 	"keywords": [
 		"telegram",
 		"bot",
 		"python",
 		"telethon"
 	],
+	"repository": "https://github.com/Almortage/liv",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
-            "value": ""            
+            "value": ""
 	   }
 	},
 	"buildpacks": [
