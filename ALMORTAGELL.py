@@ -7,8 +7,7 @@ token = Config.TG_BOT_TOKEN
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands = ["start"])
 def start(message):
- 
- bot.send_message(message.chat.id,f"""<strong>❀~ مرحبا انا بوت تشفير الملفات 🧑🏻‍💻 .
+bot.send_message(message.chat.id,f"""<strong>❀~ مرحبا انا بوت تشفير الملفات 🧑🏻‍💻 .
 ♆〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰♆
 
 ❀~ نوع تشفير : marshal, base64, zlib 🔒 .
