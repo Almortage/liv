@@ -1,1 +1,1 @@
-worker: python ALMORTAGELL
+bot: python -m ALMORTAGELL
