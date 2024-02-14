@@ -1,1 +1,1 @@
-worker: python ALMORTAGELL.py
+worker: python ALMORTAGELL
