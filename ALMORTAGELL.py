@@ -5,7 +5,7 @@ import time, base64, marshal, zlib, py_compile
 import os , sys
 token = Config.TG_BOT_TOKEN
 bot = telebot.TeleBot(token)
-@bot.message_handler(commands = ['start'])
+@bot.message_handler(commands = ["start"])
 def start(message):
  
  bot.send_message(message.chat.id,f"""<strong>❀~ مرحبا انا بوت تشفير الملفات 🧑🏻‍💻 .
